@@ -1,5 +1,9 @@
 #!/usr/bin/python
 # -*- coding:utf-8 -*-
+
+#For Zhejiang Yuexiu University students.
+#Used Waveshare 2.13 inch e-Paper HAT. Install the drive before you start.
+
 import sys
 import os
 import requests
@@ -22,7 +26,8 @@ headers={
 }
 url='http://zndb.yxc.cn:8680/wxemcp/mine/balance'
 data={
-    'customerid':'34271',
+    'customerid':'',
+    #customerid is from Browser cookies,get your own
 }
 
 
